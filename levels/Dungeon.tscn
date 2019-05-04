@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://levels/level.tscn" type="PackedScene" id=1]
+[ext_resource path="res://levels/dungeon.gd" type="Script" id=2]
+
+[node name="Dungeon" instance=ExtResource( 1 )]
+
+script = ExtResource( 2 )
+loot_chance = null
+mobs = null
+items = null
+
+
